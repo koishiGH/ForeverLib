@@ -24,7 +24,7 @@ Since they were added in newer versions of Unity.
 
 ## PLATFORM SPECIFIC NOTES:
 
-- Android:
+- Android (NOT DONE YET, TRYING TO FIND A WAY TO REPLACE ASSETS):
 
 * If you're using Android, you'll need to add UnityEngine.AndroidJNIModule as a reference in the vs project.
 
@@ -33,6 +33,16 @@ Since they were added in newer versions of Unity.
 ```
 /storage/emulated/0/Games/GAMENAME/Mods
 ```
+
+# How to add to your decomp/project:
+
+* Download or Build ForeverLib.dll
+
+* Place ForeverLib.dll in your Unity Project's Assets/Plugins folder.
+
+* Add the ForeverLib prefab to the first scene of your decomp/project.
+
+* Profit
 
 # CREDITS
 
