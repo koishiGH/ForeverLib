@@ -6,15 +6,27 @@ namespace ForeverLib
     [AddComponentMenu("ForeverLib/Mod Loader")]
     public class ModLoader : MonoBehaviour
     {
+        private static ModLoader instance;
+        
         private void Awake()
         {
-            Debug.Log("ModLoader: Awake called");
-            if (ModManager.Instance == null)
+            if (instance == null)
             {
-                Debug.Log("ModLoader: Creating ModManager");
-                var managerObj = new GameObject("ModManager");
-                managerObj.AddComponent<ModManager>();
-                DontDestroyOnLoad(managerObj);
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+                Debug.Log("ModLoader: Awake called");
+                
+                if (ModManager.Instance == null)
+                {
+                    Debug.Log("ModLoader: Creating ModManager");
+                    var managerObj = new GameObject("ModManager");
+                    managerObj.AddComponent<ModManager>();
+                    DontDestroyOnLoad(managerObj);
+                }
+            }
+            else
+            {
+                Destroy(gameObject);
             }
         }
 

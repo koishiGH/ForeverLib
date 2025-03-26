@@ -397,3 +397,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /Mods/PiracySonicSU
+/UnityDLLS/Non-Unity
