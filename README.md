@@ -24,7 +24,7 @@ Since they were added in newer versions of Unity.
 
 ## PLATFORM SPECIFIC NOTES:
 
-- Android (NOT DONE YET, TRYING TO FIND A WAY TO REPLACE ASSETS):
+### Android (NOT DONE YET, TRYING TO FIND A WAY TO REPLACE ASSETS):
 
 * If you're using Android, you'll need to add UnityEngine.AndroidJNIModule as a reference in the vs project.
 
