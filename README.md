@@ -22,18 +22,6 @@ using UnityEngine.CoreModule;
 
 Since they were added in newer versions of Unity.
 
-## PLATFORM SPECIFIC NOTES:
-
-### Android (NOT DONE YET, TRYING TO FIND A WAY TO REPLACE ASSETS):
-
-* If you're using Android, you'll need to add UnityEngine.AndroidJNIModule as a reference in the vs project.
-
-* Mods will be stored in:
-
-```
-/storage/emulated/0/Games/GAMENAME/Mods
-```
-
 # How to add to your decomp/project:
 
 * Download or Build ForeverLib.dll
