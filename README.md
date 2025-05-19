@@ -1,6 +1,6 @@
 # ForeverLib
 
-* Wip rewrite of ForeverLib, not usable yet.
+* Wip rewrite of ForeverLib!!!!!!
 
 # CREDITS
 
