@@ -1,0 +1,1 @@
+Make sure to copy the mod.json file to your mods folder next to your mods dll.

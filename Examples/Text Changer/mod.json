@@ -1,0 +1,8 @@
+{
+    "Id": "com.maybekoi.textchanger",
+    "Name": "Text Changer",
+    "Author": "maybekoi",
+    "Version": "1.0.0",
+    "Description": "Simple example mod that changes the text of the example project.",
+    "EntryPoint": "TextChanger_FLM.TextChanger"
+}
